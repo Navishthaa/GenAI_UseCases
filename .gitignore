@@ -1,0 +1,37 @@
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and tooling artifacts
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+
+# Logs and notebook checkpoints
+*.log
+.ipynb_checkpoints/
+
+# Local vector stores / generated data
+chroma_langchain_db/
